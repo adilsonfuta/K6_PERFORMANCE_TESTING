@@ -4,11 +4,15 @@
   "description": "performance testing",
   "main": "index.js",
   "scripts": {
-    "load:test": "k6 run runner.js"
+    "load:test": "k6 run runner.js",
+    "load:test1": "k6 run example.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adilsonfuta/K6_PERFORMANCE_TESTING.git"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
   },
   "keywords": [],
   "author": "",
