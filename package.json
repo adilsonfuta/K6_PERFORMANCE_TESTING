@@ -1,0 +1,20 @@
+{
+  "name": "K6_PERFORMANCE_TESTING",
+  "version": "1.0.0",
+  "description": "performance testing",
+  "main": "index.js",
+  "scripts": {
+    "load:test": "k6 run runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adilsonfuta/K6_PERFORMANCE_TESTING.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adilsonfuta/K6_PERFORMANCE_TESTING/issues"
+  },
+  "homepage": "https://github.com/adilsonfuta/K6_PERFORMANCE_TESTING#readme"
+}
